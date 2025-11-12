@@ -13,7 +13,7 @@ public class RegisterPageController {
 
     @FXML
     void btnGuest(ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/View/GuestPageInfo.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/View/GuestPage.fxml"));
         Scene scene = new Scene(loader.load());
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.setScene(scene);

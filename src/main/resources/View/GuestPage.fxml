@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SecusrityLogins.GuestPage.GuestPageController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="641.0" style="-fx-background-color: linear-gradient(from 0.0% 27.0784% to 74.3468% 100.0%, #1b720e 0.0%, #ffd21f 100.0%);">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="439.0" stroke="BLACK" strokeType="INSIDE" width="273.0" />
+            <ImageView fitHeight="310.0" fitWidth="312.0" layoutX="-18.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Images/A_green_and_white_logo_of_a_persons_hand_with_leaves_and_a_green_circle___Premium_AI-generated_vector-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="361.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Guest Mode">
+               <font>
+                  <Font name="Euphemia UCAS" size="33.0" />
+               </font>
+            </Text>
+            <Button layoutX="363.0" layoutY="386.0" mnemonicParsing="false" onAction="#btnGuest" prefHeight="33.0" prefWidth="197.0" style="-fx-background-color: Black; -fx-background-radius: 50; -fx-border-color: WHITE; -fx-border-radius: 50;" text="Guest" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Text fill="WHITE" layoutX="16.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-opacity: 50%;" text="Thoga Kade is an eco-friendly local shop focused on promoting sustainability and reducing waste.We believe in greener shopping and a cleaner tomorrow." textAlignment="CENTER" wrappingWidth="241.10205078125">
+               <font>
+                  <Font size="12.0" />
+               </font>
+            </Text>
+            <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnBack" prefHeight="26.0" prefWidth="70.0" style="-fx-background-color: #901a1a;" text="Back" textAlignment="CENTER" textFill="WHITE" />
+            <Text layoutX="306.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="⚠️ You’re logged in as a Guest User">
+               <font>
+                  <Font name="Avenir Heavy" size="19.0" />
+               </font>
+            </Text>
+            <Text fill="#9a2424" layoutX="303.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Some features like order history and account management are not available in guest mode." textAlignment="CENTER" wrappingWidth="317.0931396484375">
+               <font>
+                  <Font name="Avenir Heavy" size="19.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
