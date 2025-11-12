@@ -9,7 +9,6 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SecusrityLogins.LoginPage.LoginPageController">
    <children>
       <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="641.0" style="-fx-background-color: linear-gradient(from 0.0% 27.0784% to 74.3468% 100.0%, #1b720e 0.0%, #ffd21f 100.0%);">
@@ -20,36 +19,24 @@
                   <Image url="@../Images/A_green_and_white_logo_of_a_persons_hand_with_leaves_and_a_green_circle___Premium_AI-generated_vector-removebg-preview.png" />
                </image>
             </ImageView>
-            <Text layoutX="388.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login Form">
+            <Text layoutX="363.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SignUp Form">
                <font>
                   <Font name="Euphemia UCAS" size="33.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="284.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+            <Text fill="WHITE" layoutX="284.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
                <font>
                   <Font size="17.0" />
                </font>
             </Text>
-            <TextField fx:id="txtName" layoutX="284.0" layoutY="105.0" prefHeight="26.0" prefWidth="343.0" promptText="Name" />
-            <Text fill="WHITE" layoutX="284.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+            <TextField fx:id="txtName" layoutX="284.0" layoutY="170.0" prefHeight="26.0" prefWidth="343.0" promptText="Name" />
+            <Text fill="WHITE" layoutX="284.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
                <font>
                   <Font size="17.0" />
                </font>
             </Text>
-            <TextField fx:id="txtPassword" layoutX="284.0" layoutY="182.0" prefHeight="26.0" prefWidth="343.0" promptText="Password" />
-            <Text fill="WHITE" layoutX="284.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="eMail">
-               <font>
-                  <Font size="17.0" />
-               </font>
-            </Text>
-            <TextField fx:id="txtEmail" layoutX="284.0" layoutY="252.0" prefHeight="26.0" prefWidth="343.0" promptText="email" />
-            <Text fill="WHITE" layoutX="284.0" layoutY="311.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Number">
-               <font>
-                  <Font size="17.0" />
-               </font>
-            </Text>
-            <TextField fx:id="txtNumber" layoutX="284.0" layoutY="322.0" prefHeight="26.0" prefWidth="343.0" promptText="Number" />
-            <Button layoutX="363.0" layoutY="386.0" mnemonicParsing="false" onAction="#btnLogin" prefHeight="33.0" prefWidth="197.0" style="-fx-background-color: Black; -fx-background-radius: 50; -fx-border-color: WHITE; -fx-border-radius: 50;" text="Login" textFill="WHITE">
+            <TextField fx:id="txtPassword" layoutX="284.0" layoutY="247.0" prefHeight="26.0" prefWidth="343.0" promptText="Password" />
+            <Button layoutX="363.0" layoutY="386.0" mnemonicParsing="false" onAction="#btnSignUp" prefHeight="33.0" prefWidth="197.0" style="-fx-background-color: Black; -fx-background-radius: 50; -fx-border-color: WHITE; -fx-border-radius: 50;" text="SignUp" textFill="WHITE">
                <font>
                   <Font size="15.0" />
                </font>
@@ -59,6 +46,7 @@
                   <Font size="12.0" />
                </font>
             </Text>
+            <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnBack" prefHeight="26.0" prefWidth="70.0" style="-fx-background-color: #901a1a;" text="Back" textAlignment="CENTER" textFill="WHITE" />
          </children>
       </AnchorPane>
    </children>
