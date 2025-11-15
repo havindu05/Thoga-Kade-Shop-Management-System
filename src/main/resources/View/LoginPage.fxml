@@ -19,24 +19,24 @@
                   <Image url="@../Images/A_green_and_white_logo_of_a_persons_hand_with_leaves_and_a_green_circle___Premium_AI-generated_vector-removebg-preview.png" />
                </image>
             </ImageView>
-            <Text layoutX="363.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SignUp Form">
+            <Text layoutX="363.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login Form">
                <font>
                   <Font name="Euphemia UCAS" size="33.0" />
                </font>
             </Text>
-            <Text fill="WHITE" layoutX="284.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
+            <Text fill="WHITE" layoutX="284.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name">
                <font>
                   <Font size="17.0" />
                </font>
             </Text>
-            <TextField fx:id="txtName" layoutX="284.0" layoutY="170.0" prefHeight="26.0" prefWidth="343.0" promptText="Name" />
-            <Text fill="WHITE" layoutX="284.0" layoutY="236.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+            <TextField fx:id="txtName" layoutX="284.0" layoutY="143.0" prefHeight="26.0" prefWidth="343.0" promptText="Name" />
+            <Text fill="WHITE" layoutX="284.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
                <font>
                   <Font size="17.0" />
                </font>
             </Text>
-            <TextField fx:id="txtPassword" layoutX="284.0" layoutY="247.0" prefHeight="26.0" prefWidth="343.0" promptText="Password" />
-            <Button layoutX="363.0" layoutY="386.0" mnemonicParsing="false" onAction="#btnSignUp" prefHeight="33.0" prefWidth="197.0" style="-fx-background-color: Black; -fx-background-radius: 50; -fx-border-color: WHITE; -fx-border-radius: 50;" text="SignUp" textFill="WHITE">
+            <TextField fx:id="txtPassword" layoutX="284.0" layoutY="297.0" prefHeight="26.0" prefWidth="343.0" promptText="Password" />
+            <Button layoutX="363.0" layoutY="386.0" mnemonicParsing="false" onAction="#btnLogin" prefHeight="33.0" prefWidth="197.0" style="-fx-background-color: Black; -fx-background-radius: 50; -fx-border-color: WHITE; -fx-border-radius: 50;" text="Login" textFill="WHITE">
                <font>
                   <Font size="15.0" />
                </font>
@@ -47,6 +47,12 @@
                </font>
             </Text>
             <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#btnBack" prefHeight="26.0" prefWidth="70.0" style="-fx-background-color: #901a1a;" text="Back" textAlignment="CENTER" textFill="WHITE" />
+            <Text fill="WHITE" layoutX="284.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="eMail">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+            <TextField fx:id="txtEmail" layoutX="284.0" layoutY="221.0" prefHeight="26.0" prefWidth="343.0" promptText="eMail" />
          </children>
       </AnchorPane>
    </children>

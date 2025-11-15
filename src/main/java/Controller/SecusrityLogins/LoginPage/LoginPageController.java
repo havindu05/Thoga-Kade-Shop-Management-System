@@ -19,9 +19,6 @@ public class LoginPageController {
     private TextField txtName;
 
     @FXML
-    private TextField txtNumber;
-
-    @FXML
     private TextField txtPassword;
 
     @FXML
@@ -35,7 +32,11 @@ public class LoginPageController {
 
     @FXML
     void btnLogin(ActionEvent event) throws IOException {
-
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/View/HomePage.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.show();
     }
 
 }

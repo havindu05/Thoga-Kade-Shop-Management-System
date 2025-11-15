@@ -21,8 +21,11 @@ public class GuestPageController {
     }
 
     @FXML
-    void btnGuest(ActionEvent event) {
-
+    void btnGuest(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/View/HomePage.fxml"));
+        Scene scene = new Scene(loader.load());
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.show();
     }
-
 }
