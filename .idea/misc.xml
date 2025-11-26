@@ -4,7 +4,11 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/Thogakade_javafx_ManagementSystem/pom.xml" />
+>>>>>>> Finish My projec
       </list>
     </option>
   </component>
